@@ -12,7 +12,7 @@ const Footer = () => {
 
         <div className="bg-[#201C1DCC]">
 
-            <div className='w-[90%] mx-auto py-14'>
+            <div className='w-[90%] mx-auto pt-[82px] pb-[37px]'>
 
                 <div className='mb-14 border-b-[1px] border-[#FFFFFF33]'>
 
