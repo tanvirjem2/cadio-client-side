@@ -7,7 +7,9 @@ import { FaLocationDot } from "react-icons/fa6";
 import { MdEmail } from "react-icons/md";
 import { TfiHeadphoneAlt } from "react-icons/tfi";
 
+
 const Footer = () => {
+
     return (
 
         <div className="bg-[#201C1DCC] mt-[100px]">

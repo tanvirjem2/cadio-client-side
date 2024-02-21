@@ -6,12 +6,8 @@ const NavBar = () => {
 
     const navOptions = <>
         <li><Link className='text-sm barlow-extrabold' to={`/`}>HOME</Link></li>
-        <li><Link className='text-sm barlow-extrabold' to={``}>SERVICES</Link></li>
-        <li><Link className='text-sm barlow-extrabold' to={``}>ABOUT</Link></li>
-        <li><Link className='text-sm barlow-extrabold' to={``}>PAGE</Link></li>
-        <li><Link className='text-sm barlow-extrabold' to={``}>LOCATION</Link></li>
-        <li><Link className='text-sm barlow-extrabold' to={``}>BLOG</Link></li>
-        <li><Link className='text-sm barlow-extrabold' to={``}>LOGIN</Link></li>
+        <li><Link className='text-sm barlow-extrabold' to={``}>ADD PRODUCT</Link></li>
+        <li><Link className='text-sm barlow-extrabold' to={``}>My CART</Link></li>
     </>
 
     return (
@@ -46,7 +42,11 @@ const NavBar = () => {
             </div>
 
             <div className="navbar-end">
-                <a className="btn">Button</a>
+                <Link to={``}>
+                    <button className="btn text-sm barlow-extrabold border-none bg-[#0094ED] text-white">
+                        LOGIN
+                    </button>
+                </Link>
             </div>
 
         </div>

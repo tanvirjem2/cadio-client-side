@@ -23,7 +23,7 @@ const Banner = () => {
             <div className="hero min-h-screen" style={{ backgroundImage: `url(${banner})` }}>
                 <div className="hero-overlay bg-opacity-60"></div>
                 <div className="hero-content text-neutral-content w-[90%]">
-                    <div data-aos="zoom-out-right" className="w-[90%] lg:mt-0 mt-10">
+                    <div data-aos="fade-up" className="w-[90%] lg:mt-0 mt-10">
                         <h1 className="mb-[30px] text-xl lg:text-[84px] barlow-bold lg:leading-[80px] text-white">
                             Specialists in Car <br /> Audio Upgrades
                         </h1>
@@ -50,7 +50,7 @@ const Banner = () => {
 
             {/* ------------ What we do section done ------------------ */}
 
-            <div className='flex flex-wrap items-center justify-evenly bg-white drop-shadow-lg p-5 w-3/4 mx-auto rounded-lg relative -top-[10px] lg:-top-[60px]'>
+            <div data-aos="fade-up" className='flex flex-wrap items-center justify-evenly bg-white drop-shadow-lg p-5 w-3/4 mx-auto rounded-lg relative -top-[10px] lg:-top-[60px]'>
 
                 <div className='flex gap-[10px] lg:border-r-2  pr-[30px] border-[#E7E7E7]'>
                     <div className='text-[#FC6C40] text-4xl'>
