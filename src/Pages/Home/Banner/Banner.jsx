@@ -2,12 +2,22 @@ import { Link } from 'react-router-dom';
 import banner from '../../../assets/Home/Banner.jpg'
 import { FaPhoneAlt } from "react-icons/fa";
 
+// Use Aos -------- for Animation
+import Aos from "aos"
+import 'aos/dist/aos.css'
+import { useEffect } from 'react';
+
 const Banner = () => {
+
+    useEffect(() => {
+        Aos.init({ duration: 1000 });
+    }, [])
+
     return (
         <div className="hero min-h-screen" style={{ backgroundImage: `url(${banner})` }}>
             <div className="hero-overlay bg-opacity-60"></div>
             <div className="hero-content text-neutral-content w-[90%]">
-                <div className="w-[90%] lg:mt-0 mt-10">
+                <div data-aos="zoom-out-right" className="w-[90%] lg:mt-0 mt-10">
                     <h1 className="mb-[30px] text-xl lg:text-[84px] barlow-bold lg:leading-[80px] text-white">
                         Specialists in Car <br /> Audio Upgrades
                     </h1>
