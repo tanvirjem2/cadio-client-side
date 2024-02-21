@@ -10,7 +10,7 @@ import { TfiHeadphoneAlt } from "react-icons/tfi";
 const Footer = () => {
     return (
 
-        <div className="bg-[#201C1DCC]">
+        <div className="bg-[#201C1DCC] mt-[100px]">
 
             <div className='w-[90%] mx-auto pt-[82px] pb-[37px]'>
 
