@@ -44,7 +44,7 @@ const Footer = () => {
 
                 <div className='border-b-[1px] border-[#FFFFFF33]'>
 
-                    <div className='grid grid-cols-1 lg:grid-cols-5 mb-14'>
+                    <div className='grid grid-cols-1 lg:grid-cols-5 mb-14 gap-8 lg:gap-0'>
 
                         <div>
                             <h1 className='text-sm barlow-extrabold text-white'>About Us</h1>

@@ -13,12 +13,12 @@ const About = () => {
     }, [])
 
     return (
-        <div data-aos="fade-up" className='grid grid-cols-2 gap-[30px] w-[90%] mx-auto mt-11'>
+        <div data-aos="fade-up" className='grid grid-cols-1 lg:grid-cols-2 gap-[30px] w-[90%] mx-auto mt-11'>
 
             <div>
                 <p className='text-base text-[#737373] barlow-extrabold mb-[10px]'>ABOUT US</p>
                 <div className='space-y-[30px]'>
-                    <p className='text-[64px] barlow-bold leading-[65px]'>
+                    <p className='text-5xl lg:text-[64px] barlow-bold lg:leading-[65px]'>
                         Cadio - Car Audio Installations
                     </p>
                     <p className='leading-6 text-[#737373]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>

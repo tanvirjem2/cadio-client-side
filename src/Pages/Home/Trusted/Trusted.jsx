@@ -14,16 +14,18 @@ const Trusted = () => {
     }, [])
 
     return (
-        <div data-aos="fade-up" className='grid grid-cols-2 gap-[30px] w-[90%] mx-auto mt-[100px]'>
+        <div data-aos="fade-up" className='grid grid-cols-1 lg:grid-cols-2 gap-[30px] w-[90%] mx-auto mt-[100px]'>
             <div>
                 <img className='rounded-lg' src={trustImage} alt="" />
             </div>
             <div>
                 <p className='text-base text-[#737373] barlow-extrabold mb-[10px]'>TRUSTED</p>
                 <div className='space-y-[30px]'>
-                    <p className='text-[64px] barlow-bold leading-[65px]'>Trusted Car Audio System</p>
+                    <p className='text-5xl lg:text-[64px] barlow-bold lg:leading-[65px]'>
+                        Trusted Car Audio System
+                    </p>
                     <p className='leading-6 text-[#737373]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                    <div className='flex gap-[30px]'>
+                    <div className='flex flex-wrap lg:flex-nowrap gap-[30px]'>
 
                         <div className='space-y-5'>
                             <div className='flex gap-[15px]'>
