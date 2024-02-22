@@ -1,0 +1,82 @@
+[
+    {
+        "id": 1,
+        "user": "Emily Thompson",
+        "rating": 4.5,
+        "title": "Amazingly well organised and attended event!",
+        "comment": "Attended a cars and coffee event. First time for myself and my 4 year old daughter. Stayed for over 3 hours. Amazingly well organised and attended event. Every inch of all available car parks was  rammed. Huge array of cars.",
+        "image": "https://i.ibb.co/wsfT2RL/customer-10.jpg"
+    },
+    {
+        "id": 2,
+        "user": "Daniel Rodriguez",
+        "rating": 5.0,
+        "title": "Brake Replacement Excellence",
+        "comment": "Exceptional work on my brake replacement! The mechanics were knowledgeable, and my car feels brand new.",
+        "image": "https://i.ibb.co/NSQ4b6R/customer-1.jpg"
+    },
+    {
+        "id": 3,
+        "user": "Sophia Patel",
+        "rating": 3.5,
+        "title": "Average Tire Rotation",
+        "comment": "Average experience with the tire rotation service. Could improve on communication and waiting area amenities.",
+        "image": "https://i.ibb.co/ynzByNt/customer-6.jpg"
+    },
+    {
+        "id": 4,
+        "user": "Michael Davis",
+        "rating": 4.0,
+        "title": "Satisfied Diagnostics Service",
+        "comment": "Satisfied with the diagnostics service. Quick identification of the issue and fair pricing for the repair.",
+        "image": "https://i.ibb.co/w7H9J2V/customer-9.jpg"
+    },
+    {
+        "id": 5,
+        "user": "Olivia Martinez",
+        "rating": 5.0,
+        "title": "Outstanding Detailing",
+        "comment": "Outstanding detailing service! My car looks better than when I bought it. Great attention to detail.",
+        "image": "https://i.ibb.co/zZpcV1L/customer-8.jpg"
+    },
+    {
+        "id": 6,
+        "user": "David Wilson",
+        "rating": 3.0,
+        "title": "Decent Engine Checkup",
+        "comment": "Decent experience with the engine checkup. Service was okay, but nothing extraordinary.",
+        "image": "https://i.ibb.co/XyMQL8g/customer-7.jpg"
+    },
+    {
+        "id": 7,
+        "user": "Emma Turner",
+        "rating": 4.5,
+        "title": "Reliable Suspension Fix",
+        "comment": "Reliable and efficient service. Had my car's suspension fixed, and it rides smoothly now. Impressed!",
+        "image": "https://i.ibb.co/r0pVXVc/customer-2.jpg"
+    },
+    {
+        "id": 8,
+        "user": "Christopher Taylor",
+        "rating": 5.0,
+        "title": "Thrilled Engine Overhaul",
+        "comment": "Absolutely thrilled with the engine overhaul service. The performance boost is noticeable. Great job!",
+        "image": "https://i.ibb.co/phS1XKd/customer-4.jpg"
+    },
+    {
+        "id": 9,
+        "user": "Ava Robinson",
+        "rating": 3.5,
+        "title": "Decent Routine Maintenance",
+        "comment": "Decent service for the routine maintenance. Prices are fair, and the staff is courteous.",
+        "image": "https://i.ibb.co/FDkT6RD/customer-3.jpg"
+    },
+    {
+        "id": 10,
+        "user": "William Garcia",
+        "rating": 4.0,
+        "title": "Prompt AC Repair",
+        "comment": "Prompt and professional service for my AC repair. Cool air is back, and I'm happy with the results.",
+        "image": "https://i.ibb.co/qncJf7v/customer-5.jpg"
+    }
+]
