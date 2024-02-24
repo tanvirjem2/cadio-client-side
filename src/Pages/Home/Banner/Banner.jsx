@@ -50,7 +50,7 @@ const Banner = () => {
 
             {/* ------------ What we do section done ------------------ */}
 
-            <div data-aos="fade-up" className='flex flex-wrap items-center justify-evenly bg-white drop-shadow-lg p-5 w-3/4 mx-auto rounded-lg relative -top-[10px] lg:-top-[60px]'>
+            <div data-aos="fade-up" className='flex gap-6 lg:gap-0 flex-wrap items-center justify-evenly bg-white drop-shadow-lg p-5 w-3/4 mx-auto rounded-lg relative -top-[10px] lg:-top-[60px]'>
 
                 <div className='flex gap-[10px] lg:border-r-2  pr-[30px] border-[#E7E7E7]'>
                     <div className='text-[#FC6C40] text-4xl'>

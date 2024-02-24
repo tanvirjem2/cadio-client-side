@@ -1,20 +1,17 @@
-import video from '../../../assets/Home/The Breathtaking Beauty of Nature _ HD.mp4'
-
-// Use Aos -------- for Animation
-import Aos from "aos"
-import 'aos/dist/aos.css'
 import { useEffect } from 'react';
+import video from '../../../assets/Home/The Breathtaking Beauty of Nature _ HD.mp4';
+import Aos from "aos";
+import 'aos/dist/aos.css';
 
 const Choose = () => {
-
     useEffect(() => {
         Aos.init({ duration: 1000 });
-    }, [])
+    }, []);
 
     return (
         <div className="mt-[100px] bg-[#062759]">
             <div data-aos="fade-up" className='py-24'>
-                <div className="grid grid-cols-2 gap-[30px] w-[90%] mx-auto">
+                <div className="grid grid-cols-1 lg:grid-cols-2 gap-[30px] w-[90%] mx-auto">
                     <div>
                         <p className='text-base text-[#FFFFFFB2] barlow-extrabold mb-[10px]'>Why</p>
                         <div className="space-y-[30px]">
@@ -23,10 +20,10 @@ const Choose = () => {
                             </h1>
                             <div className="leading-6 text-[#FFFFFFB2] space-y-8">
                                 <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.
+                                    At Cadio, we stand out as your preferred choice for automotive services. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.
                                 </p>
                                 <p>
-                                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                    Our commitment to excellence is evident in every aspect of our service. From skilled technicians and state-of-the-art facilities to personalized solutions tailored to your needs, we prioritize your satisfaction. Choose Cadio for an unparalleled automotive experience that goes beyond expectations.
                                 </p>
                             </div>
                             <p className="barlow-bold text-[32px] text-white lg:leading-[35px]">
@@ -38,7 +35,7 @@ const Choose = () => {
                         <video className='rounded-lg' src={video} controls="controls"></video>
                     </div>
                 </div>
-                <div className='grid grid-cols-4 w-[90%] mx-auto gap-[30px] mt-8'>
+                <div className='grid grid-cols-1 lg:grid-cols-4 w-[90%] mx-auto gap-[30px] mt-8'>
                     <div className='drop-shadow-lg bg-white p-5 rounded-md space-y-[7px]'>
                         <div className='flex items-center justify-between barlow-bold'>
                             <p className='text-2xl'>Best Quote</p>

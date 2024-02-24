@@ -6,7 +6,7 @@ export default {
   ],
   theme: {
     backgroundImage: {
-      'hero-pattern': "url('/src/assets/Home/footer.jpg')",
+      'hero-pattern': "url('/src/assets/Home/why choose us 2.jpg')",
     }
   },
   plugins: [require("daisyui")],
